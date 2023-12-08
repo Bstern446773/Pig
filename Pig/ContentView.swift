@@ -8,7 +8,7 @@
 import SwiftUI
 struct ContentView: View {
     @State private var turnScore = 0
-    @State private var gameScore = 90
+    @State private var gameScore = 0
     @State private var randomValue = 0
     @State private var rotation = 0.0
     @State private var gameOver = false
